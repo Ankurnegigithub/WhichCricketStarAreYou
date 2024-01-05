@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main{
+    overflow: hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background-image: url("Womenscricket2_d.webp"); 
+background-repeat:no-repeat;
+background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#Center{
+    height:50%;
+    width: 45%;
+      border:2px solid;
+     border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+            border-image-slice: 1;
+       
+ 
+}
+#Center label{
+    display: block;
+    width: 100%;
+    max-width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+            border-image-slice: 1;
+       
+    
+}
+#Center input{
+    display: block;
+    width: 100%;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Center button{
+    display: block;
+    text-align: center;
+    margin: auto;
+
+    font-weight:bold;
+    background-color:black;
+    color: white;  
+     border:2px solid ;
+    border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+            border-image-slice: 1;
+       
+}
+#result{
+    width:400px ;
+    height: 400px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    #Center{
+        height:45%;
+        width: 40%;
+          border:2px solid;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+     
+    }
+    #Center label{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    width: 100%;
+    max-width:100%;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+    }
+    
+    #Center input{
+        display: block;
+        width: 100%;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #Center button{
+        display: block;
+        text-align: center;
+        margin: auto;
+          
+       
+        font-weight:bold;
+        background-color:black;
+        color: white;  
+         border:2px solid ;
+        border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+    }
+    #result{
+    width:300px ;
+    height: 300px;
+}
+  
+    
+}
+
+@media screen and (max-width:560px) {
+    #Center{
+        height:40%;
+        width: 35%;
+          border:1.5px solid;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+     
+    }
+    #Center label{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    width: 100%;
+    max-width:100%;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+    }
+    
+    #Center input{
+        display: block;
+        width: 100%;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #Center button{
+        display: block;
+        text-align: center;
+        margin: auto;
+           
+       
+        font-weight:bold;
+        background-color:black;
+        color: white;  
+         border:1.5px solid ;
+        border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+    }
+    #result{
+    width:200px ;
+    height: 200px;
+}
+    
+}
+
+
+@media screen and (max-width:300px) {
+
+    .main{
+        overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-image: url("Womenscricket2_d.webp"); 
+    background-repeat:no-repeat;
+   background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    #Center{
+        height:35%;
+        width: 30%;
+          border:1px solid;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+     
+    }
+    #Center label{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    width: 100%;
+    max-width:100%;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+    }
+    
+    #Center input{
+        display: block;
+        width: 100%;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #Center button{
+        display: block;
+        text-align: center;
+        margin: auto;
+           
+       
+        font-weight:bold;
+        background-color:black;
+        color: white;  
+         border:1px solid ;
+        border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+    }
+    #result{
+    width:100px ;
+    height: 100px;
+}
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="Center">
+            <label for="name">NAME :</label>
+            <input id="name" type="text" placeholder="Enter your name"><br>
+            
+            <label for="dob">DOB :</label>
+            <input id="dob" type="date"><br>
+            
+            <button onclick="generateRandomNumber()">SEARCH</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script>
+        // Main.js
+function generateRandomNumber() {
+    const name = document.getElementById('name').value;
+    const dob = document.getElementById('dob').value;
+
+    if (name && dob) {
+        const combinedInput = name + dob;
+        const numericalValue = hashCode(combinedInput);
+
+        // Use the numerical value to generate a random number between 1 and 5
+        const randomNum = (numericalValue % 5) + 1;
+
+        // Define result variable
+        const result = document.getElementById('result');
+
+        // Clear previous content and styles
+        result.innerHTML = '';
+       
+       
+        // Use a switch statement for better readability
+        switch (true) {
+            case (randomNum > 5 || randomNum < 0):
+                result.innerHTML = '<img src="Har.jpg" alt="Miss 171" style="width: 100%; height: 100%;"><h1>Thala for a reason</h1>';
+                break;
+            case (randomNum >= 0 && randomNum <= 3):
+                result.innerHTML = '<img src="smriti.jpg" alt="Sachin" style="width: 100%; height: 100%;"><h1>Queen Smriti</h1>';
+                break;
+            case (randomNum > 3 && randomNum <= 5):
+                result.innerHTML = '<img src="s3.jpg" alt="Virat" style="width: 100%; height: 100%;"><h1>Cover Drive</h1>';
+                break;
+            default:
+                alert('Unexpected error occurred.');
+                break;
+        }
+    } else {
+        alert('Please enter both name and date of birth.');
+    }
+}
+
+// Simple hash function
+function hashCode(input) {
+    let hash = 0;
+    for (let i = 0; i < input.length; i++) {
+        const char = input.charCodeAt(i);
+        hash = (hash << 5) - hash + char;
+    }
+    return hash;
+}
+
+    </script>
+</body>
+</html>

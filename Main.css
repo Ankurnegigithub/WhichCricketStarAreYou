@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main{
+    overflow: hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background-image: url("Im.jpg.webp"); 
+background-repeat:no-repeat;
+background-size:100%;
+    height: 100vh;
+    width: 100%;
+}
+
+#Center{
+    height:50%;
+    width: 45%;
+      border:2px solid;
+     border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+            border-image-slice: 1;
+       
+ 
+}
+#Center label{
+    display: block;
+    width: 100%;
+    max-width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+            border-image-slice: 1;
+       
+    
+}
+#Center input{
+    display: block;
+    width: 100%;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Center button{
+    display: block;
+    text-align: center;
+    margin: auto;
+
+    font-weight:bold;
+    background-color:black;
+    color: white;  
+     border:2px solid ;
+    border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+            border-image-slice: 1;
+       
+}
+
+#result{
+    width:400px ;
+    height: 400px;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    #Center{
+        height:45%;
+        width: 40%;
+          border:2px solid;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+     
+    }
+    #Center label{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    width: 100%;
+    max-width:100%;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+    }
+    
+    #Center input{
+        display: block;
+        width: 100%;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #Center button{
+        display: block;
+        text-align: center;
+        margin: auto;
+          
+       
+        font-weight:bold;
+        background-color:black;
+        color: white;  
+         border:2px solid ;
+        border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+    }
+    #result{
+        width:300px ;
+        height: 300px;
+    }
+  
+    
+}
+
+@media screen and (max-width:560px) {
+    #Center{
+        height:40%;
+        width: 35%;
+          border:1.5px solid;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+     
+    }
+    #Center label{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    width: 100%;
+    max-width:100%;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+    }
+    
+    #Center input{
+        display: block;
+        width: 100%;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #Center button{
+        display: block;
+        text-align: center;
+        margin: auto;
+           
+       
+        font-weight:bold;
+        background-color:black;
+        color: white;  
+         border:1.5px solid ;
+        border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+    }
+    #result{
+        width:200px ;
+        height: 200px;
+    }
+    
+}
+
+
+@media screen and (max-width:300px) {
+
+    .main{
+        overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-image: url("Im.jpg.webp"); 
+    background-repeat:no-repeat;
+   background-size: contain;
+        height: 100vh;
+        width: 100%;
+    }
+    #Center{
+        height:35%;
+        width: 30%;
+          border:1px solid;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+     
+    }
+    #Center label{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+    width: 100%;
+    max-width:100%;
+         border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+    }
+    
+    #Center input{
+        display: block;
+        width: 100%;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #Center button{
+        display: block;
+        text-align: center;
+        margin: auto;
+           
+       
+        font-weight:bold;
+        background-color:black;
+        color: white;  
+         border:1px solid ;
+        border-image:linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+                border-image-slice: 1;
+           
+    }
+    #result{
+        width:100px ;
+        height: 100px;
+    }
+    
+}
+
+
+
